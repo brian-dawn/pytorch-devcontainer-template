@@ -8,5 +8,6 @@ RUN conda install -c anaconda \
 
 RUN conda install -c conda-forge \
     gxx_linux-64                 \
-    tensorboard
+    tensorboard                  \
+    pyright
 

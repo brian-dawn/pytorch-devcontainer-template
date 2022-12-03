@@ -17,3 +17,13 @@ tensor = torch.randn((5, 5), device=device, dtype=dtype)
 
 
 tensor
+
+
+# %%
+
+import torch
+import torchvision
+import torchvision.transforms as transforms
+
+
+x: int = "34"
