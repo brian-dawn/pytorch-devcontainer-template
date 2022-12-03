@@ -1,0 +1,18 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the README at:
+// https://github.com/microsoft/vscode-dev-containers/tree/v0.154.0/containers/docker-existing-dockerfile
+{
+    "name": "PyTorch Playground",
+    "context": "..",
+    "dockerFile": "../Dockerfile",
+    "settings": {},
+    "extensions": [
+        "ms-python.python",
+        "ms-python.vscode-pylance",
+        "ms-toolsai.jupyter",
+        "ms-python.black-formatter"
+    ],
+    "runArgs": [
+        "--gpus",
+        "all"
+    ]
+}

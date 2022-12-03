@@ -1,0 +1,5 @@
+{
+    "python.formatting.provider": "black",
+    "python.formatting.blackPath": "/opt/conda/bin/black",
+    "editor.formatOnSave": true
+}
